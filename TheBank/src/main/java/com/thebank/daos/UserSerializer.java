@@ -10,7 +10,6 @@ import java.io.ObjectOutputStream;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import com.thebank.beans.User;
@@ -19,14 +18,17 @@ public class UserSerializer implements UserDao {
 	//private Logger log = Logger.getRootLogger();
 	public static final UserSerializer us = new UserSerializer();
 	public static List<String>transHistory = new ArrayList<>();
-
+	public static List<String>theUsers = new ArrayList<>();
+	public static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+	public static LocalDateTime now = LocalDateTime.now();
+	private String theFile="";
 	@Override
 	public void createUser(User u) {
 		if(u==null) {
 			return;
 		}
 		File f = new File("src/main/resources/users/"+u.getUsername()+".txt");
-		System.out.println(f.getName());
+		//System.out.println(f.getName());
 		if(f.exists()) {
 			return;
 		}
@@ -47,6 +49,51 @@ public class UserSerializer implements UserDao {
 		catch(IOException e) {
 			e.printStackTrace();
 		}
+		
+		
+		theUsers.add(u.getUsername());
+		//System.out.println(theUsers);
+//		File f2 = new File("src/main/resources/users/"+u.getUsername()+"_transHistory.txt");
+//		//System.out.println(f.getName());
+//		if(f2.exists()) {
+//			return;
+//		}
+//		try {
+//			f2.createNewFile();
+//		}
+//		catch(IOException e) {
+//			e.printStackTrace();
+//			return;
+//		}
+//		try {
+//			ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("src/main/resources/users/all_users.txt"));
+//			oos.writeUTF(theUsers.toString());
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		
+//		File f3 = new File("src/main/resources/users/"+u.getUsername()+"_transHistory.txt");
+//		//System.out.println(f.getName());
+//		if(f3.exists()) {
+//			return;
+//		}
+//		try {
+//			f3.createNewFile();
+//		}
+//		catch(IOException e) {
+//			e.printStackTrace();
+//			return;
+//		}
+//		try {
+//			ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("src/main/resources/users/"+u.getUsername()+"_transHistory.txt"));
+//			oos.writeUTF(transHistory.toString());
+//			oos.close();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		
 		
 		
 	}
@@ -102,7 +149,6 @@ public class UserSerializer implements UserDao {
 			e.printStackTrace();
 		}
 		
-		
 		return null;
 		
 		
@@ -125,6 +171,12 @@ public class UserSerializer implements UserDao {
 	}
 
 	@Override
+	public void updateUser(User u) {
+		deleteUser(u);
+		createUser(u);
+	}
+
+	@Override
 	public void deposit(User u,double money) {
 		
 		if(money<0) {
@@ -133,16 +185,13 @@ public class UserSerializer implements UserDao {
 		}
 		double tot=0;
 		tot = u.getTotBalance();
-		System.out.println("The previous total balance = "+tot );
-		System.out.println("Incoming deposit"+ money);
-		System.out.println("The new balance = "+ (tot+money));
+		System.out.println("The previous total balance = $"+tot );
+		System.out.println("Incoming deposit= $"+ money);
+		System.out.println("The new balance = $"+ (tot+money));
 		double newResult= tot+money;
 		u.setTotBalance(newResult);
 //		List<String> transHistory = new ArrayList<>();
 		
-		
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-		LocalDateTime now = LocalDateTime.now();
 		transHistory.add("Deposit Amount: $"+money+" at "+dtf.format(now));
 		//System.out.println(transHistory.toString());
 		us.updateUser(u);
@@ -164,6 +213,7 @@ public class UserSerializer implements UserDao {
 	@Override
 	public void withdraw(User u, double money) {
 		double tot = 0;
+		double newResult=0;
 		tot = u.getTotBalance();
 		double withdrawMoney = 0;
 		
@@ -174,21 +224,20 @@ public class UserSerializer implements UserDao {
 			System.out.println("You can't withdraw money greater than your total balance");
 		}
 		else {
-			tot= tot+withdrawMoney;
+			newResult = tot+withdrawMoney;
+			System.out.println("The previous total balance = $"+tot );
+			System.out.println("Incoming withdrawal= $"+ money);
+			System.out.println("Your new balacne = $"+newResult);
 		}
-		u.setTotBalance(tot);
+		u.setTotBalance(newResult);
+		transHistory.add("Withdraw Amount: $"+money+" at "+dtf.format(now));
+		//System.out.println(transHistory.toString());
 		us.updateUser(u);
 		
-		
 	}
-
-	@Override
-	public void updateUser(User u) {
-		deleteUser(u);
-		createUser(u);
-	}
-
-	
-
-	
 }
+
+
+	
+
+	

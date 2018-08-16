@@ -1,6 +1,8 @@
 package com.thebank.beans;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 public class User implements Serializable {
 		
@@ -14,13 +16,14 @@ public class User implements Serializable {
 	private String lastName;
 	private double totBalance;
 	private int age;
-	private String history;
+	private List<TransHistory> th = new ArrayList<TransHistory>();
+	private int accountNumber;
 	public User() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	public User(String username, String password, String firstName, String lastName, double totBalance, int age,
-			String history) {
+			List<TransHistory> th, int accountNumber) {
 		super();
 		this.username = username;
 		this.password = password;
@@ -28,7 +31,8 @@ public class User implements Serializable {
 		this.lastName = lastName;
 		this.totBalance = totBalance;
 		this.age = age;
-		this.history = history;
+		this.th = th;
+		this.accountNumber = accountNumber;
 	}
 	public String getUsername() {
 		return username;
@@ -66,11 +70,17 @@ public class User implements Serializable {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	public String getHistory() {
-		return history;
+	public List<TransHistory> getTh() {
+		return th;
 	}
-	public void setHistory(String history) {
-		this.history = history;
+	public void setTh(List<TransHistory> th) {
+		this.th = th;
+	}
+	public int getAccountNumber() {
+		return accountNumber;
+	}
+	public void setAccountNumber(int accountNumber) {
+		this.accountNumber = accountNumber;
 	}
 	public static long getSerialversionuid() {
 		return serialVersionUID;
@@ -79,11 +89,12 @@ public class User implements Serializable {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
+		result = prime * result + accountNumber;
 		result = prime * result + age;
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
-		result = prime * result + ((history == null) ? 0 : history.hashCode());
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		result = prime * result + ((password == null) ? 0 : password.hashCode());
+		result = prime * result + ((th == null) ? 0 : th.hashCode());
 		long temp;
 		temp = Double.doubleToLongBits(totBalance);
 		result = prime * result + (int) (temp ^ (temp >>> 32));
@@ -99,17 +110,14 @@ public class User implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		User other = (User) obj;
+		if (accountNumber != other.accountNumber)
+			return false;
 		if (age != other.age)
 			return false;
 		if (firstName == null) {
 			if (other.firstName != null)
 				return false;
 		} else if (!firstName.equals(other.firstName))
-			return false;
-		if (history == null) {
-			if (other.history != null)
-				return false;
-		} else if (!history.equals(other.history))
 			return false;
 		if (lastName == null) {
 			if (other.lastName != null)
@@ -120,6 +128,11 @@ public class User implements Serializable {
 			if (other.password != null)
 				return false;
 		} else if (!password.equals(other.password))
+			return false;
+		if (th == null) {
+			if (other.th != null)
+				return false;
+		} else if (!th.equals(other.th))
 			return false;
 		if (Double.doubleToLongBits(totBalance) != Double.doubleToLongBits(other.totBalance))
 			return false;
@@ -133,10 +146,10 @@ public class User implements Serializable {
 	@Override
 	public String toString() {
 		return "User [username=" + username + ", password=" + password + ", firstName=" + firstName + ", lastName="
-				+ lastName + ", totBalance=" + totBalance + ", age=" + age + "]";
+				+ lastName + ", totBalance=" + totBalance + ", age=" + age + ", accountNumber=" + accountNumber + "]";
 	}
 	
-	
-	
-
 }
+
+
+	

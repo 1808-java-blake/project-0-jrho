@@ -8,7 +8,7 @@ import com.thebank.daos.UserDao;
 public class LoginScreen implements Screen{
 	private Scanner scan = new Scanner(System.in);
 	private UserDao ud = UserDao.currentUserDao;
-	public static String fileName = "";
+	public static String fileName;
 	
 
 	@Override
@@ -17,6 +17,9 @@ public class LoginScreen implements Screen{
 		System.out.println("Enter Username or type Register to sign up: ");
 		
 		String username = scan.nextLine();
+		if(username.equals("admin")) {
+			return new AdminScreen();
+		}
 		fileName = username;
 		
 		//log.trace("username = " + username);
