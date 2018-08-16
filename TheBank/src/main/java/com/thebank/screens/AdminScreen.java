@@ -43,7 +43,7 @@ public class AdminScreen implements Screen {
 					System.out.println("Invalid username");
 					return this;
 				}
-				System.out.println("Select 1 to view "+u.getUsername()+"'s"+ " admpersonal information");
+				System.out.println("Select 1 to view "+u.getUsername()+"'s"+ " personal information");
 				System.out.println("Select 2 to view "+u.getUsername()+"'s"+" acount information");
 				System.out.println("Select 3 to view "+u.getUsername()+"'s"+" transaction history");
 				System.out.println("Select 4 to delete the user");
