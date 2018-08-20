@@ -1,0 +1,610 @@
+2018-08-18 23:29:13 TRACE Launcher:11 - trace log
+2018-08-18 23:29:13 DEBUG Launcher:12 - debug log
+2018-08-18 23:29:13 INFO  Launcher:13 - info log
+2018-08-18 23:29:13 WARN  Launcher:14 - warn log
+2018-08-18 23:29:13 ERROR Launcher:15 - error log
+2018-08-18 23:29:13 FATAL Launcher:16 - fatal log
+2018-08-19 15:30:54 TRACE Launcher:11 - trace log
+2018-08-19 15:30:54 DEBUG Launcher:12 - debug log
+2018-08-19 15:30:54 INFO  Launcher:13 - info log
+2018-08-19 15:30:54 WARN  Launcher:14 - warn log
+2018-08-19 15:30:54 ERROR Launcher:15 - error log
+2018-08-19 15:30:54 FATAL Launcher:16 - fatal log
+2018-08-19 15:31:07 INFO  LoginScreen:46 - user succefully logged in
+2018-08-19 15:31:07 INFO  LoginScreen:47 - welcomeUser [id=0, username=Kevin, password=pass, firstName=Kevin, lastName=K, age=40]
+2018-08-19 15:39:15 TRACE Launcher:11 - trace log
+2018-08-19 15:39:15 DEBUG Launcher:12 - debug log
+2018-08-19 15:39:15 INFO  Launcher:13 - info log
+2018-08-19 15:39:15 WARN  Launcher:14 - warn log
+2018-08-19 15:39:15 ERROR Launcher:15 - error log
+2018-08-19 15:39:15 FATAL Launcher:16 - fatal log
+2018-08-19 15:41:01 TRACE Launcher:11 - trace log
+2018-08-19 15:41:01 DEBUG Launcher:12 - debug log
+2018-08-19 15:41:01 INFO  Launcher:13 - info log
+2018-08-19 15:41:01 WARN  Launcher:14 - warn log
+2018-08-19 15:41:01 ERROR Launcher:15 - error log
+2018-08-19 15:41:01 FATAL Launcher:16 - fatal log
+2018-08-19 15:41:25 TRACE Launcher:11 - trace log
+2018-08-19 15:41:25 DEBUG Launcher:12 - debug log
+2018-08-19 15:41:25 INFO  Launcher:13 - info log
+2018-08-19 15:41:25 WARN  Launcher:14 - warn log
+2018-08-19 15:41:25 ERROR Launcher:15 - error log
+2018-08-19 15:41:25 FATAL Launcher:16 - fatal log
+2018-08-19 15:42:57 TRACE Launcher:11 - trace log
+2018-08-19 15:42:57 DEBUG Launcher:12 - debug log
+2018-08-19 15:42:57 INFO  Launcher:13 - info log
+2018-08-19 15:42:57 WARN  Launcher:14 - warn log
+2018-08-19 15:42:57 ERROR Launcher:15 - error log
+2018-08-19 15:42:57 FATAL Launcher:16 - fatal log
+2018-08-19 15:43:24 TRACE Launcher:11 - trace log
+2018-08-19 15:43:24 DEBUG Launcher:12 - debug log
+2018-08-19 15:43:24 INFO  Launcher:13 - info log
+2018-08-19 15:43:24 WARN  Launcher:14 - warn log
+2018-08-19 15:43:24 ERROR Launcher:15 - error log
+2018-08-19 15:43:24 FATAL Launcher:16 - fatal log
+2018-08-19 15:43:32 TRACE LoginScreen:29 - username = register
+2018-08-19 15:43:35 TRACE LoginScreen:29 - username = kevin
+2018-08-19 15:43:36 INFO  LoginScreen:47 - user succefully logged in
+2018-08-19 15:43:36 INFO  LoginScreen:48 - welcomeUser [id=0, username=Kevin, password=pass, firstName=Kevin, lastName=K, age=40]
+2018-08-19 15:45:52 TRACE Launcher:11 - trace log
+2018-08-19 15:45:52 DEBUG Launcher:12 - debug log
+2018-08-19 15:45:52 INFO  Launcher:13 - info log
+2018-08-19 15:45:52 WARN  Launcher:14 - warn log
+2018-08-19 15:45:52 ERROR Launcher:15 - error log
+2018-08-19 15:45:52 FATAL Launcher:16 - fatal log
+2018-08-19 15:50:45 TRACE Launcher:11 - trace log
+2018-08-19 15:50:45 DEBUG Launcher:12 - debug log
+2018-08-19 15:50:45 INFO  Launcher:13 - info log
+2018-08-19 15:50:45 WARN  Launcher:14 - warn log
+2018-08-19 15:50:45 ERROR Launcher:15 - error log
+2018-08-19 15:50:45 FATAL Launcher:16 - fatal log
+2018-08-19 15:51:04 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-19 15:53:59 TRACE Launcher:11 - trace log
+2018-08-19 15:53:59 DEBUG Launcher:12 - debug log
+2018-08-19 15:53:59 INFO  Launcher:13 - info log
+2018-08-19 15:53:59 WARN  Launcher:14 - warn log
+2018-08-19 15:53:59 ERROR Launcher:15 - error log
+2018-08-19 15:53:59 FATAL Launcher:16 - fatal log
+2018-08-19 15:54:24 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-19 15:59:20 TRACE Launcher:11 - trace log
+2018-08-19 15:59:20 DEBUG Launcher:12 - debug log
+2018-08-19 15:59:20 INFO  Launcher:13 - info log
+2018-08-19 15:59:20 WARN  Launcher:14 - warn log
+2018-08-19 15:59:20 ERROR Launcher:15 - error log
+2018-08-19 15:59:20 FATAL Launcher:16 - fatal log
+2018-08-19 15:59:43 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-19 16:00:24 TRACE Launcher:11 - trace log
+2018-08-19 16:00:24 DEBUG Launcher:12 - debug log
+2018-08-19 16:00:24 INFO  Launcher:13 - info log
+2018-08-19 16:00:24 WARN  Launcher:14 - warn log
+2018-08-19 16:00:24 ERROR Launcher:15 - error log
+2018-08-19 16:00:24 FATAL Launcher:16 - fatal log
+2018-08-19 16:00:42 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-19 16:02:20 TRACE Launcher:11 - trace log
+2018-08-19 16:02:20 DEBUG Launcher:12 - debug log
+2018-08-19 16:02:20 INFO  Launcher:13 - info log
+2018-08-19 16:02:20 WARN  Launcher:14 - warn log
+2018-08-19 16:02:20 ERROR Launcher:15 - error log
+2018-08-19 16:02:20 FATAL Launcher:16 - fatal log
+2018-08-19 16:02:34 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-19 16:06:37 TRACE Launcher:11 - trace log
+2018-08-19 16:06:37 DEBUG Launcher:12 - debug log
+2018-08-19 16:06:37 INFO  Launcher:13 - info log
+2018-08-19 16:06:37 WARN  Launcher:14 - warn log
+2018-08-19 16:06:37 ERROR Launcher:15 - error log
+2018-08-19 16:06:37 FATAL Launcher:16 - fatal log
+2018-08-19 16:06:51 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-19 17:03:01 TRACE Launcher:11 - trace log
+2018-08-19 17:03:01 DEBUG Launcher:12 - debug log
+2018-08-19 17:03:01 INFO  Launcher:13 - info log
+2018-08-19 17:03:01 WARN  Launcher:14 - warn log
+2018-08-19 17:03:01 ERROR Launcher:15 - error log
+2018-08-19 17:03:01 FATAL Launcher:16 - fatal log
+2018-08-19 17:03:26 TRACE UserDaoJdbc:38 - 1records created
+2018-08-19 17:09:08 TRACE Launcher:11 - trace log
+2018-08-19 17:09:08 DEBUG Launcher:12 - debug log
+2018-08-19 17:09:08 INFO  Launcher:13 - info log
+2018-08-19 17:09:08 WARN  Launcher:14 - warn log
+2018-08-19 17:09:08 ERROR Launcher:15 - error log
+2018-08-19 17:09:08 FATAL Launcher:16 - fatal log
+2018-08-19 17:09:17 INFO  LoginScreen:47 - user succefully logged in
+2018-08-19 17:09:17 INFO  LoginScreen:48 - welcomeUser [id=0, username=jrho, password=null, firstName=James, lastName=Rho, age=99]
+2018-08-19 17:09:36 TRACE Launcher:11 - trace log
+2018-08-19 17:09:36 DEBUG Launcher:12 - debug log
+2018-08-19 17:09:36 INFO  Launcher:13 - info log
+2018-08-19 17:09:36 WARN  Launcher:14 - warn log
+2018-08-19 17:09:36 ERROR Launcher:15 - error log
+2018-08-19 17:09:36 FATAL Launcher:16 - fatal log
+2018-08-19 17:09:44 INFO  LoginScreen:47 - user succefully logged in
+2018-08-19 17:09:44 INFO  LoginScreen:48 - welcomeUser [id=0, username=James, password=null, firstName=James, lastName=Kim, age=0]
+2018-08-19 19:49:57 TRACE Launcher:11 - trace log
+2018-08-19 19:49:57 DEBUG Launcher:12 - debug log
+2018-08-19 19:49:57 INFO  Launcher:13 - info log
+2018-08-19 19:49:57 WARN  Launcher:14 - warn log
+2018-08-19 19:49:57 ERROR Launcher:15 - error log
+2018-08-19 19:49:57 FATAL Launcher:16 - fatal log
+2018-08-19 19:50:15 TRACE UserDaoJdbc:38 - 1records created
+2018-08-19 19:54:18 TRACE Launcher:11 - trace log
+2018-08-19 19:54:18 DEBUG Launcher:12 - debug log
+2018-08-19 19:54:18 INFO  Launcher:13 - info log
+2018-08-19 19:54:18 WARN  Launcher:14 - warn log
+2018-08-19 19:54:18 ERROR Launcher:15 - error log
+2018-08-19 19:54:18 FATAL Launcher:16 - fatal log
+2018-08-19 19:54:35 TRACE UserDaoJdbc:38 - 1records created
+2018-08-19 19:55:14 TRACE Launcher:11 - trace log
+2018-08-19 19:55:14 DEBUG Launcher:12 - debug log
+2018-08-19 19:55:14 INFO  Launcher:13 - info log
+2018-08-19 19:55:14 WARN  Launcher:14 - warn log
+2018-08-19 19:55:14 ERROR Launcher:15 - error log
+2018-08-19 19:55:14 FATAL Launcher:16 - fatal log
+2018-08-19 19:55:28 TRACE UserDaoJdbc:38 - 1records created
+2018-08-19 21:39:35 TRACE Launcher:11 - trace log
+2018-08-19 21:39:35 DEBUG Launcher:12 - debug log
+2018-08-19 21:39:35 INFO  Launcher:13 - info log
+2018-08-19 21:39:35 WARN  Launcher:14 - warn log
+2018-08-19 21:39:35 ERROR Launcher:15 - error log
+2018-08-19 21:39:35 FATAL Launcher:16 - fatal log
+2018-08-20 12:58:13 TRACE Launcher:11 - trace log
+2018-08-20 12:58:13 DEBUG Launcher:12 - debug log
+2018-08-20 12:58:13 INFO  Launcher:13 - info log
+2018-08-20 12:58:13 WARN  Launcher:14 - warn log
+2018-08-20 12:58:13 ERROR Launcher:15 - error log
+2018-08-20 12:58:13 FATAL Launcher:16 - fatal log
+2018-08-20 12:58:34 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 12:58:37 ERROR AccountDaoJdbc:41 - No value specified for parameter 3.
+2018-08-20 12:58:37 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.SimpleParameterList.checkAllParametersSet(SimpleParameterList.java:257)
+2018-08-20 12:58:37 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:290)
+2018-08-20 12:58:37 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 12:58:37 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 12:58:37 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 12:58:37 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 12:58:37 ERROR AccountDaoJdbc:43 - com.thebank.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:32)
+2018-08-20 12:58:37 ERROR AccountDaoJdbc:43 - com.thebank.screens.RegisterUser.start(RegisterUser.java:65)
+2018-08-20 12:58:37 ERROR AccountDaoJdbc:43 - com.thebank.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 12:58:37 WARN  AccountDaoJdbc:45 - failed to create new user
+2018-08-20 12:59:43 TRACE Launcher:11 - trace log
+2018-08-20 12:59:43 DEBUG Launcher:12 - debug log
+2018-08-20 12:59:43 INFO  Launcher:13 - info log
+2018-08-20 12:59:43 WARN  Launcher:14 - warn log
+2018-08-20 12:59:43 ERROR Launcher:15 - error log
+2018-08-20 12:59:43 FATAL Launcher:16 - fatal log
+2018-08-20 13:00:02 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 13:00:06 ERROR AccountDaoJdbc:41 - No value specified for parameter 3.
+2018-08-20 13:00:06 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.SimpleParameterList.checkAllParametersSet(SimpleParameterList.java:257)
+2018-08-20 13:00:06 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:290)
+2018-08-20 13:00:06 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 13:00:06 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 13:00:06 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 13:00:06 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 13:00:06 ERROR AccountDaoJdbc:43 - com.thebank.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:32)
+2018-08-20 13:00:06 ERROR AccountDaoJdbc:43 - com.thebank.screens.RegisterUser.start(RegisterUser.java:58)
+2018-08-20 13:00:06 ERROR AccountDaoJdbc:43 - com.thebank.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 13:00:06 WARN  AccountDaoJdbc:45 - failed to create new user
+2018-08-20 13:03:30 TRACE Launcher:11 - trace log
+2018-08-20 13:03:30 DEBUG Launcher:12 - debug log
+2018-08-20 13:03:30 INFO  Launcher:13 - info log
+2018-08-20 13:03:30 WARN  Launcher:14 - warn log
+2018-08-20 13:03:30 ERROR Launcher:15 - error log
+2018-08-20 13:03:30 FATAL Launcher:16 - fatal log
+2018-08-20 13:03:46 ERROR UserDaoJdbc:42 - ERROR: duplicate key value violates unique constraint "users_username_key"
+  Detail: Key (username)=(test4) already exists.
+2018-08-20 13:03:46 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:03:46 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:03:46 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:03:46 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:03:46 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:03:46 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:03:46 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:03:46 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:03:46 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:03:46 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:04:44 TRACE Launcher:11 - trace log
+2018-08-20 13:04:44 DEBUG Launcher:12 - debug log
+2018-08-20 13:04:44 INFO  Launcher:13 - info log
+2018-08-20 13:04:44 WARN  Launcher:14 - warn log
+2018-08-20 13:04:44 ERROR Launcher:15 - error log
+2018-08-20 13:04:44 FATAL Launcher:16 - fatal log
+2018-08-20 13:05:02 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 13:05:05 ERROR AccountDaoJdbc:41 - No value specified for parameter 3.
+2018-08-20 13:05:05 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.SimpleParameterList.checkAllParametersSet(SimpleParameterList.java:257)
+2018-08-20 13:05:05 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:290)
+2018-08-20 13:05:05 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 13:05:05 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 13:05:05 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 13:05:05 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 13:05:05 ERROR AccountDaoJdbc:43 - com.thebank.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:32)
+2018-08-20 13:05:05 ERROR AccountDaoJdbc:43 - com.thebank.screens.RegisterUser.start(RegisterUser.java:60)
+2018-08-20 13:05:05 ERROR AccountDaoJdbc:43 - com.thebank.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 13:05:05 WARN  AccountDaoJdbc:45 - failed to create new user
+2018-08-20 13:06:29 TRACE Launcher:11 - trace log
+2018-08-20 13:06:29 DEBUG Launcher:12 - debug log
+2018-08-20 13:06:29 INFO  Launcher:13 - info log
+2018-08-20 13:06:29 WARN  Launcher:14 - warn log
+2018-08-20 13:06:29 ERROR Launcher:15 - error log
+2018-08-20 13:06:29 FATAL Launcher:16 - fatal log
+2018-08-20 13:06:51 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 13:06:55 ERROR AccountDaoJdbc:41 - The column index is out of range: 4, number of columns: 3.
+2018-08-20 13:06:55 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.SimpleParameterList.bind(SimpleParameterList.java:65)
+2018-08-20 13:06:55 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.SimpleParameterList.setBinaryParameter(SimpleParameterList.java:132)
+2018-08-20 13:06:55 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.bindBytes(PgPreparedStatement.java:1007)
+2018-08-20 13:06:55 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.setInt(PgPreparedStatement.java:283)
+2018-08-20 13:06:55 ERROR AccountDaoJdbc:43 - com.thebank.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:30)
+2018-08-20 13:06:55 ERROR AccountDaoJdbc:43 - com.thebank.screens.RegisterUser.start(RegisterUser.java:60)
+2018-08-20 13:06:55 ERROR AccountDaoJdbc:43 - com.thebank.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 13:06:55 WARN  AccountDaoJdbc:45 - failed to create new user
+2018-08-20 13:09:18 TRACE Launcher:11 - trace log
+2018-08-20 13:09:18 DEBUG Launcher:12 - debug log
+2018-08-20 13:09:18 INFO  Launcher:13 - info log
+2018-08-20 13:09:18 WARN  Launcher:14 - warn log
+2018-08-20 13:09:18 ERROR Launcher:15 - error log
+2018-08-20 13:09:18 FATAL Launcher:16 - fatal log
+2018-08-20 13:10:03 TRACE Launcher:11 - trace log
+2018-08-20 13:10:03 DEBUG Launcher:12 - debug log
+2018-08-20 13:10:03 INFO  Launcher:13 - info log
+2018-08-20 13:10:03 WARN  Launcher:14 - warn log
+2018-08-20 13:10:03 ERROR Launcher:15 - error log
+2018-08-20 13:10:03 FATAL Launcher:16 - fatal log
+2018-08-20 13:10:24 ERROR UserDaoJdbc:42 - ERROR: duplicate key value violates unique constraint "users_username_key"
+  Detail: Key (username)=(test6) already exists.
+2018-08-20 13:10:24 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:10:24 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:10:24 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:10:24 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:10:24 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:10:24 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:10:24 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:10:24 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:10:24 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:10:24 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:10:33 TRACE Launcher:11 - trace log
+2018-08-20 13:10:33 DEBUG Launcher:12 - debug log
+2018-08-20 13:10:33 INFO  Launcher:13 - info log
+2018-08-20 13:10:33 WARN  Launcher:14 - warn log
+2018-08-20 13:10:33 ERROR Launcher:15 - error log
+2018-08-20 13:10:33 FATAL Launcher:16 - fatal log
+2018-08-20 13:10:48 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 13:10:51 ERROR AccountDaoJdbc:41 - The column index is out of range: 4, number of columns: 3.
+2018-08-20 13:10:51 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.SimpleParameterList.bind(SimpleParameterList.java:65)
+2018-08-20 13:10:51 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.SimpleParameterList.setBinaryParameter(SimpleParameterList.java:132)
+2018-08-20 13:10:51 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.bindBytes(PgPreparedStatement.java:1007)
+2018-08-20 13:10:51 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.setInt(PgPreparedStatement.java:283)
+2018-08-20 13:10:51 ERROR AccountDaoJdbc:43 - com.thebank.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:30)
+2018-08-20 13:10:51 ERROR AccountDaoJdbc:43 - com.thebank.screens.RegisterUser.start(RegisterUser.java:60)
+2018-08-20 13:10:51 ERROR AccountDaoJdbc:43 - com.thebank.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 13:10:51 WARN  AccountDaoJdbc:45 - failed to create new user
+2018-08-20 13:11:28 TRACE Launcher:11 - trace log
+2018-08-20 13:11:28 DEBUG Launcher:12 - debug log
+2018-08-20 13:11:28 INFO  Launcher:13 - info log
+2018-08-20 13:11:28 WARN  Launcher:14 - warn log
+2018-08-20 13:11:28 ERROR Launcher:15 - error log
+2018-08-20 13:11:28 FATAL Launcher:16 - fatal log
+2018-08-20 13:11:54 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 13:11:56 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 13:11:56 TRACE AccountDaoJdbc:37 - generated weapon id is1
+2018-08-20 13:16:09 TRACE Launcher:11 - trace log
+2018-08-20 13:16:09 DEBUG Launcher:12 - debug log
+2018-08-20 13:16:09 INFO  Launcher:13 - info log
+2018-08-20 13:16:09 WARN  Launcher:14 - warn log
+2018-08-20 13:16:09 ERROR Launcher:15 - error log
+2018-08-20 13:16:09 FATAL Launcher:16 - fatal log
+2018-08-20 13:16:43 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 13:16:43 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 13:16:43 TRACE AccountDaoJdbc:37 - generated weapon id is2
+2018-08-20 13:34:38 TRACE Launcher:11 - trace log
+2018-08-20 13:34:38 DEBUG Launcher:12 - debug log
+2018-08-20 13:34:38 INFO  Launcher:13 - info log
+2018-08-20 13:34:38 WARN  Launcher:14 - warn log
+2018-08-20 13:34:38 ERROR Launcher:15 - error log
+2018-08-20 13:34:38 FATAL Launcher:16 - fatal log
+2018-08-20 13:35:08 ERROR UserDaoJdbc:42 - ERROR: null value in column "user_id" violates not-null constraint
+  Detail: Failing row contains (null, null, jrho, pass, James, Rho, 28, 300.00).
+2018-08-20 13:35:08 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:35:08 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:35:08 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:35:08 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:35:08 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:35:08 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:35:08 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:35:08 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:35:08 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:35:08 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 13:35:08 ERROR AccountDaoJdbc:41 - ERROR: column "user_id" of relation "accounts" does not exist
+  Position: 48
+2018-08-20 13:35:08 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 13:35:08 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 13:35:08 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 13:35:08 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 13:35:08 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 13:35:08 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 13:35:08 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 13:35:08 ERROR AccountDaoJdbc:43 - com.thebank.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:32)
+2018-08-20 13:35:08 ERROR AccountDaoJdbc:43 - com.thebank.screens.RegisterUser.start(RegisterUser.java:61)
+2018-08-20 13:35:08 ERROR AccountDaoJdbc:43 - com.thebank.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 13:35:08 WARN  AccountDaoJdbc:45 - failed to create new user
+2018-08-20 13:47:01 TRACE Launcher:11 - trace log
+2018-08-20 13:47:01 DEBUG Launcher:12 - debug log
+2018-08-20 13:47:01 INFO  Launcher:13 - info log
+2018-08-20 13:47:01 WARN  Launcher:14 - warn log
+2018-08-20 13:47:01 ERROR Launcher:15 - error log
+2018-08-20 13:47:01 FATAL Launcher:16 - fatal log
+2018-08-20 13:47:26 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 13:47:26 ERROR AccountDaoJdbc:41 - ERROR: column "balance" of relation "accounts" does not exist
+  Position: 39
+2018-08-20 13:47:26 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 13:47:26 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 13:47:26 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 13:47:26 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 13:47:26 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 13:47:26 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 13:47:26 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 13:47:26 ERROR AccountDaoJdbc:43 - com.thebank.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:32)
+2018-08-20 13:47:26 ERROR AccountDaoJdbc:43 - com.thebank.screens.RegisterUser.start(RegisterUser.java:61)
+2018-08-20 13:47:26 ERROR AccountDaoJdbc:43 - com.thebank.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 13:47:26 WARN  AccountDaoJdbc:45 - failed to create new user
+2018-08-20 13:52:18 TRACE Launcher:11 - trace log
+2018-08-20 13:52:18 DEBUG Launcher:12 - debug log
+2018-08-20 13:52:18 INFO  Launcher:13 - info log
+2018-08-20 13:52:18 WARN  Launcher:14 - warn log
+2018-08-20 13:52:18 ERROR Launcher:15 - error log
+2018-08-20 13:52:18 FATAL Launcher:16 - fatal log
+2018-08-20 13:52:37 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 13:52:37 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 13:52:37 TRACE AccountDaoJdbc:37 - generated weapon id is1
+2018-08-20 13:56:33 TRACE Launcher:11 - trace log
+2018-08-20 13:56:33 DEBUG Launcher:12 - debug log
+2018-08-20 13:56:33 INFO  Launcher:13 - info log
+2018-08-20 13:56:33 WARN  Launcher:14 - warn log
+2018-08-20 13:56:33 ERROR Launcher:15 - error log
+2018-08-20 13:56:33 FATAL Launcher:16 - fatal log
+2018-08-20 14:01:43 TRACE Launcher:11 - trace log
+2018-08-20 14:01:43 DEBUG Launcher:12 - debug log
+2018-08-20 14:01:43 INFO  Launcher:13 - info log
+2018-08-20 14:01:43 WARN  Launcher:14 - warn log
+2018-08-20 14:01:43 ERROR Launcher:15 - error log
+2018-08-20 14:01:43 FATAL Launcher:16 - fatal log
+2018-08-20 14:01:55 INFO  LoginScreen:47 - user succefully logged in
+2018-08-20 14:01:55 INFO  LoginScreen:48 - welcomeUser [id=1, username=jrho, password=null, firstName=James , lastName=Rho, age=30]
+2018-08-20 14:40:12 TRACE Launcher:11 - trace log
+2018-08-20 14:40:12 DEBUG Launcher:12 - debug log
+2018-08-20 14:40:12 INFO  Launcher:13 - info log
+2018-08-20 14:40:12 WARN  Launcher:14 - warn log
+2018-08-20 14:40:12 ERROR Launcher:15 - error log
+2018-08-20 14:40:12 FATAL Launcher:16 - fatal log
+2018-08-20 14:40:37 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 14:40:38 ERROR AccountDaoJdbc:41 - ERROR: column "account_balance" of relation "accounts" does not exist
+  Position: 39
+2018-08-20 14:40:38 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 14:40:38 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 14:40:38 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 14:40:38 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 14:40:38 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 14:40:38 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 14:40:38 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 14:40:38 ERROR AccountDaoJdbc:43 - com.thebank.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:32)
+2018-08-20 14:40:38 ERROR AccountDaoJdbc:43 - com.thebank.screens.RegisterUser.start(RegisterUser.java:61)
+2018-08-20 14:40:38 ERROR AccountDaoJdbc:43 - com.thebank.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 14:40:38 WARN  AccountDaoJdbc:45 - failed to create new user
+2018-08-20 14:42:10 TRACE Launcher:11 - trace log
+2018-08-20 14:42:10 DEBUG Launcher:12 - debug log
+2018-08-20 14:42:10 INFO  Launcher:13 - info log
+2018-08-20 14:42:10 WARN  Launcher:14 - warn log
+2018-08-20 14:42:10 ERROR Launcher:15 - error log
+2018-08-20 14:42:10 FATAL Launcher:16 - fatal log
+2018-08-20 14:42:28 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 14:42:29 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 14:42:29 TRACE AccountDaoJdbc:37 - generated weapon id is1
+2018-08-20 14:42:45 TRACE Launcher:11 - trace log
+2018-08-20 14:42:45 DEBUG Launcher:12 - debug log
+2018-08-20 14:42:45 INFO  Launcher:13 - info log
+2018-08-20 14:42:45 WARN  Launcher:14 - warn log
+2018-08-20 14:42:45 ERROR Launcher:15 - error log
+2018-08-20 14:42:45 FATAL Launcher:16 - fatal log
+2018-08-20 14:46:43 TRACE Launcher:11 - trace log
+2018-08-20 14:46:43 DEBUG Launcher:12 - debug log
+2018-08-20 14:46:43 INFO  Launcher:13 - info log
+2018-08-20 14:46:43 WARN  Launcher:14 - warn log
+2018-08-20 14:46:43 ERROR Launcher:15 - error log
+2018-08-20 14:46:43 FATAL Launcher:16 - fatal log
+2018-08-20 14:47:06 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 14:47:07 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 14:47:07 TRACE AccountDaoJdbc:37 - generated weapon id is1
+2018-08-20 14:48:33 TRACE Launcher:11 - trace log
+2018-08-20 14:48:33 DEBUG Launcher:12 - debug log
+2018-08-20 14:48:33 INFO  Launcher:13 - info log
+2018-08-20 14:48:33 WARN  Launcher:14 - warn log
+2018-08-20 14:48:33 ERROR Launcher:15 - error log
+2018-08-20 14:48:33 FATAL Launcher:16 - fatal log
+2018-08-20 14:49:03 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 14:49:03 ERROR AccountDaoJdbc:41 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 14:49:03 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 14:49:03 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 14:49:03 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 14:49:03 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 14:49:03 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 14:49:03 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 14:49:03 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 14:49:03 ERROR AccountDaoJdbc:43 - com.thebank.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:32)
+2018-08-20 14:49:03 ERROR AccountDaoJdbc:43 - com.thebank.screens.RegisterUser.start(RegisterUser.java:61)
+2018-08-20 14:49:03 ERROR AccountDaoJdbc:43 - com.thebank.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 14:49:03 WARN  AccountDaoJdbc:45 - failed to create new user
+2018-08-20 14:51:16 TRACE Launcher:11 - trace log
+2018-08-20 14:51:16 DEBUG Launcher:12 - debug log
+2018-08-20 14:51:16 INFO  Launcher:13 - info log
+2018-08-20 14:51:16 WARN  Launcher:14 - warn log
+2018-08-20 14:51:16 ERROR Launcher:15 - error log
+2018-08-20 14:51:16 FATAL Launcher:16 - fatal log
+2018-08-20 14:51:53 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 14:51:54 ERROR AccountDaoJdbc:41 - ERROR: INSERT has more target columns than expressions
+  Position: 55
+2018-08-20 14:51:54 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 14:51:54 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 14:51:54 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 14:51:54 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 14:51:54 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 14:51:54 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 14:51:54 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 14:51:54 ERROR AccountDaoJdbc:43 - com.thebank.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:32)
+2018-08-20 14:51:54 ERROR AccountDaoJdbc:43 - com.thebank.screens.RegisterUser.start(RegisterUser.java:61)
+2018-08-20 14:51:54 ERROR AccountDaoJdbc:43 - com.thebank.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 14:51:54 WARN  AccountDaoJdbc:45 - failed to create new user
+2018-08-20 14:52:40 TRACE Launcher:11 - trace log
+2018-08-20 14:52:40 DEBUG Launcher:12 - debug log
+2018-08-20 14:52:40 INFO  Launcher:13 - info log
+2018-08-20 14:52:40 WARN  Launcher:14 - warn log
+2018-08-20 14:52:40 ERROR Launcher:15 - error log
+2018-08-20 14:52:40 FATAL Launcher:16 - fatal log
+2018-08-20 14:52:58 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 14:52:59 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 14:52:59 TRACE AccountDaoJdbc:37 - generated account id is3
+2018-08-20 14:59:55 TRACE Launcher:11 - trace log
+2018-08-20 14:59:55 DEBUG Launcher:12 - debug log
+2018-08-20 14:59:55 INFO  Launcher:13 - info log
+2018-08-20 14:59:55 WARN  Launcher:14 - warn log
+2018-08-20 14:59:55 ERROR Launcher:15 - error log
+2018-08-20 14:59:55 FATAL Launcher:16 - fatal log
+2018-08-20 15:00:39 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 15:00:40 ERROR AccountDaoJdbc:41 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 15:00:40 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:00:40 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:00:40 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:00:40 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:00:40 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:00:40 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:00:40 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:00:40 ERROR AccountDaoJdbc:43 - com.thebank.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:32)
+2018-08-20 15:00:40 ERROR AccountDaoJdbc:43 - com.thebank.screens.RegisterUser.start(RegisterUser.java:62)
+2018-08-20 15:00:40 ERROR AccountDaoJdbc:43 - com.thebank.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 15:00:40 WARN  AccountDaoJdbc:45 - failed to create new user
+2018-08-20 15:01:50 TRACE Launcher:11 - trace log
+2018-08-20 15:01:50 DEBUG Launcher:12 - debug log
+2018-08-20 15:01:50 INFO  Launcher:13 - info log
+2018-08-20 15:01:50 WARN  Launcher:14 - warn log
+2018-08-20 15:01:50 ERROR Launcher:15 - error log
+2018-08-20 15:01:50 FATAL Launcher:16 - fatal log
+2018-08-20 15:02:10 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 15:02:10 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 15:02:10 TRACE AccountDaoJdbc:37 - generated account id is5
+2018-08-20 15:12:12 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 15:12:12 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 15:12:12 TRACE AccountDaoJdbc:37 - generated account id is6
+2018-08-20 15:14:49 INFO  LoginScreen:47 - user succefully logged in
+2018-08-20 15:14:49 INFO  LoginScreen:48 - welcomeUser [id=9, username=test14, password=null, firstName=14, lastName=14, totBalance=0.0, age=14, accountNumber=0]
+2018-08-20 15:17:45 TRACE Launcher:11 - trace log
+2018-08-20 15:17:45 DEBUG Launcher:12 - debug log
+2018-08-20 15:17:45 INFO  Launcher:13 - info log
+2018-08-20 15:17:45 WARN  Launcher:14 - warn log
+2018-08-20 15:17:45 ERROR Launcher:15 - error log
+2018-08-20 15:17:45 FATAL Launcher:16 - fatal log
+2018-08-20 15:18:11 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 15:18:12 ERROR AccountDaoJdbc:41 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 15:18:12 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:18:12 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:18:12 ERROR AccountDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:18:12 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:18:12 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:18:12 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:18:12 ERROR AccountDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:18:12 ERROR AccountDaoJdbc:43 - com.thebank.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:32)
+2018-08-20 15:18:12 ERROR AccountDaoJdbc:43 - com.thebank.screens.RegisterUser.start(RegisterUser.java:62)
+2018-08-20 15:18:12 ERROR AccountDaoJdbc:43 - com.thebank.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 15:18:12 WARN  AccountDaoJdbc:45 - failed to create new user
+2018-08-20 15:23:00 TRACE Launcher:11 - trace log
+2018-08-20 15:23:00 DEBUG Launcher:12 - debug log
+2018-08-20 15:23:00 INFO  Launcher:13 - info log
+2018-08-20 15:23:00 WARN  Launcher:14 - warn log
+2018-08-20 15:23:00 ERROR Launcher:15 - error log
+2018-08-20 15:23:00 FATAL Launcher:16 - fatal log
+2018-08-20 15:23:17 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 15:23:17 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 15:23:17 TRACE AccountDaoJdbc:37 - generated account id is8
+2018-08-20 15:26:11 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 15:26:11 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 15:26:11 TRACE AccountDaoJdbc:37 - generated account id is9
+2018-08-20 15:28:14 INFO  LoginScreen:47 - user succefully logged in
+2018-08-20 15:28:14 INFO  LoginScreen:48 - welcomeUser [id=12, username=test17, password=null, firstName=17, lastName=17, totBalance=0.0, age=17, accountNumber=0]
+2018-08-20 15:36:53 TRACE Launcher:11 - trace log
+2018-08-20 15:36:53 DEBUG Launcher:12 - debug log
+2018-08-20 15:36:53 INFO  Launcher:13 - info log
+2018-08-20 15:36:53 WARN  Launcher:14 - warn log
+2018-08-20 15:36:53 ERROR Launcher:15 - error log
+2018-08-20 15:36:53 FATAL Launcher:16 - fatal log
+2018-08-20 15:38:30 TRACE Launcher:11 - trace log
+2018-08-20 15:38:30 DEBUG Launcher:12 - debug log
+2018-08-20 15:38:30 INFO  Launcher:13 - info log
+2018-08-20 15:38:30 WARN  Launcher:14 - warn log
+2018-08-20 15:38:30 ERROR Launcher:15 - error log
+2018-08-20 15:38:30 FATAL Launcher:16 - fatal log
+2018-08-20 15:38:50 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 15:38:50 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 15:38:50 TRACE AccountDaoJdbc:37 - generated account id is10
+2018-08-20 15:40:47 INFO  LoginScreen:47 - user succefully logged in
+2018-08-20 15:40:47 INFO  LoginScreen:48 - welcomeUser [id=13, username=test18, password=null, firstName=18, lastName=18, totBalance=0.0, age=18, accountNumber=0]
+2018-08-20 15:54:09 TRACE Launcher:11 - trace log
+2018-08-20 15:54:09 DEBUG Launcher:12 - debug log
+2018-08-20 15:54:09 INFO  Launcher:13 - info log
+2018-08-20 15:54:09 WARN  Launcher:14 - warn log
+2018-08-20 15:54:09 ERROR Launcher:15 - error log
+2018-08-20 15:54:09 FATAL Launcher:16 - fatal log
+2018-08-20 15:54:28 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 15:54:29 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 15:54:29 TRACE AccountDaoJdbc:37 - generated account id is11
+2018-08-20 15:54:37 INFO  LoginScreen:47 - user succefully logged in
+2018-08-20 15:54:37 INFO  LoginScreen:48 - welcomeUser [id=14, username=test20, password=null, firstName=test, lastName=test, totBalance=0.0, age=20, accountNumber=0]
+2018-08-20 15:56:35 TRACE Launcher:11 - trace log
+2018-08-20 15:56:35 DEBUG Launcher:12 - debug log
+2018-08-20 15:56:35 INFO  Launcher:13 - info log
+2018-08-20 15:56:35 WARN  Launcher:14 - warn log
+2018-08-20 15:56:35 ERROR Launcher:15 - error log
+2018-08-20 15:56:35 FATAL Launcher:16 - fatal log
+2018-08-20 15:56:57 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 15:56:57 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 15:56:57 TRACE AccountDaoJdbc:37 - generated account id is12
+2018-08-20 15:57:02 INFO  LoginScreen:47 - user succefully logged in
+2018-08-20 15:57:02 INFO  LoginScreen:48 - welcomeUser [id=15, username=test21, password=null, firstName=21, lastName=21, totBalance=0.0, age=21, accountNumber=0]
+2018-08-20 15:59:53 TRACE Launcher:11 - trace log
+2018-08-20 15:59:53 DEBUG Launcher:12 - debug log
+2018-08-20 15:59:53 INFO  Launcher:13 - info log
+2018-08-20 15:59:53 WARN  Launcher:14 - warn log
+2018-08-20 15:59:53 ERROR Launcher:15 - error log
+2018-08-20 15:59:53 FATAL Launcher:16 - fatal log
+2018-08-20 16:00:24 TRACE UserDaoJdbc:39 - 1records created
+2018-08-20 16:00:24 TRACE AccountDaoJdbc:33 - 1records created
+2018-08-20 16:00:24 TRACE AccountDaoJdbc:37 - generated account id is13
+2018-08-20 16:00:29 INFO  LoginScreen:47 - user succefully logged in
+2018-08-20 16:00:29 INFO  LoginScreen:48 - welcomeUser [id=16, username=test30, password=null, firstName=30, lastName=30, totBalance=0.0, age=30, accountNumber=0]
+2018-08-20 16:26:02 TRACE Launcher:11 - trace log
+2018-08-20 16:26:02 DEBUG Launcher:12 - debug log
+2018-08-20 16:26:02 INFO  Launcher:13 - info log
+2018-08-20 16:26:02 WARN  Launcher:14 - warn log
+2018-08-20 16:26:02 ERROR Launcher:15 - error log
+2018-08-20 16:26:02 FATAL Launcher:16 - fatal log
+2018-08-20 16:26:13 WARN  UserDaoJdbc:78 - failed to find user with provided credentials from the db
+2018-08-20 16:26:22 INFO  LoginScreen:47 - user succefully logged in
+2018-08-20 16:26:22 INFO  LoginScreen:48 - welcomeUser [id=15, username=test21, password=null, firstName=21, lastName=21, totBalance=0.0, age=21, accountNumber=0]
+2018-08-20 16:26:27 TRACE Launcher:11 - trace log
+2018-08-20 16:26:27 DEBUG Launcher:12 - debug log
+2018-08-20 16:26:27 INFO  Launcher:13 - info log
+2018-08-20 16:26:27 WARN  Launcher:14 - warn log
+2018-08-20 16:26:27 ERROR Launcher:15 - error log
+2018-08-20 16:26:27 FATAL Launcher:16 - fatal log
+2018-08-20 16:27:00 INFO  LoginScreen:47 - user succefully logged in
+2018-08-20 16:27:00 INFO  LoginScreen:48 - welcomeUser [id=16, username=test30, password=null, firstName=30, lastName=30, totBalance=0.0, age=30, accountNumber=0]
+2018-08-20 16:27:58 TRACE Launcher:11 - trace log
+2018-08-20 16:27:58 DEBUG Launcher:12 - debug log
+2018-08-20 16:27:58 INFO  Launcher:13 - info log
+2018-08-20 16:27:58 WARN  Launcher:14 - warn log
+2018-08-20 16:27:58 ERROR Launcher:15 - error log
+2018-08-20 16:27:58 FATAL Launcher:16 - fatal log
+2018-08-20 16:28:08 INFO  LoginScreen:47 - user succefully logged in
+2018-08-20 16:28:08 INFO  LoginScreen:48 - welcomeUser [id=16, username=test30, password=null, firstName=30, lastName=30, totBalance=0.0, age=30, accountNumber=0]
+2018-08-20 16:30:29 TRACE Launcher:11 - trace log
+2018-08-20 16:30:29 DEBUG Launcher:12 - debug log
+2018-08-20 16:30:29 INFO  Launcher:13 - info log
+2018-08-20 16:30:29 WARN  Launcher:14 - warn log
+2018-08-20 16:30:29 ERROR Launcher:15 - error log
+2018-08-20 16:30:29 FATAL Launcher:16 - fatal log
+2018-08-20 16:30:39 INFO  LoginScreen:47 - user succefully logged in
+2018-08-20 16:30:39 INFO  LoginScreen:48 - welcomeUser [id=16, username=test30, password=null, firstName=30, lastName=30, totBalance=0.0, age=30, accountNumber=0]

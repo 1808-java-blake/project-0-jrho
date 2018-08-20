@@ -1,31 +1,33 @@
 package com.thebank.screens;
 
-import java.util.Random;
 import java.util.Scanner;
 
 import com.thebank.beans.Account;
 import com.thebank.beans.User;
+import com.thebank.daos.AccountDao;
 import com.thebank.daos.UserDao;
-import com.thebank.daos.UserSerializer;
 
 
 
 public class RegisterUser implements Screen {
 	private Scanner scan = new Scanner(System.in);
 	private UserDao ud = UserDao.currentUserDao;
-	public static Account account = new Account();
+	private AccountDao ad = AccountDao.currentAccountDao;
+	//private AppState state = AppState.state;
+	//private Logger log = Logger.getRootLogger();
+	//public static Account account = new Account();
 	
-	
-	
-
 	@Override
 	public Screen start() {
 		User u = new User();
+		Account a = new Account();
 		
 		System.out.println("Enter new username");
-		u.setUsername(scan.nextLine());
+		String username = scan.nextLine();
+		u.setUsername(username);
 		System.out.println("Enter password");
-		u.setPassword(scan.nextLine());
+		String password = scan.nextLine();
+		u.setPassword(password);
 		System.out.println("Enter first name");
 		u.setFirstName(scan.nextLine());
 		System.out.println("Enter last name");
@@ -35,53 +37,59 @@ public class RegisterUser implements Screen {
 		
 		try {
 			u.setAge(Integer.valueOf(age));
+			//ud.createUser(u);
+			
+			
 			
 		} catch (NumberFormatException e) {
 			System.out.println("Invalid number");
+			return null;
 		}
 		
-		
-		
-		
-		//setting random account number to user
-		Random rand = new Random();
-		int randomAccount  = 100000000+rand.nextInt(900000000);
-		
-		u.setAccountNumber(randomAccount);
-	
-		
-		System.out.println("would you like to start with deposit? 1: Yes, 2: No");
-		
-		int selection = Integer.valueOf(scan.nextLine());
-		if(selection ==1) {
-			System.out.println("Enter Money");
-			double number =0;
-			number = Double.valueOf(scan.nextLine());
-			try {
-				//account.setTotalBalance(number);
-				u.setTotBalance(number);
-				UserSerializer.theUsers.add(u.getUsername());
-				//u.setAccount(account);
-				ud.createUser(u);
-				//System.out.println(u);
-			}
-			catch(NumberFormatException e) {
-				System.out.println("Invalid Number");
-			}
+		//set random account number
+		ad.random_account(a);
+		System.out.println("Do you like to start with deposit? 1: deposit 2: menu");
+		String selection = scan.nextLine();
+		if(selection.equals("1")) {
+			System.out.println("Enter deposit amount");
+			String amount = scan.nextLine();
+			double money = Double.valueOf(amount);
+			a.setBalance(money);
+			System.out.println("new balance " +a.getBalance() );
+			
+			ud.createUser(u);
+			u.setTotBalance(money);
+			
+			
+			
+			int userId = ud.findByUsernameAndPassword(username, password).getId();
+			//ad.findByUserId(userId);
+			//a.setUserId(u.getId());
+			//System.out.println(a.getUserId());
+			ad.createAccount(a,userId);
 		}
-		
 		else
 		{
-			double number=0;
-			u.setTotBalance(number);
-			System.out.println(u);
-			//UserSerializer.theUsers.add(u.getUsername());
+			int userId = ud.findByUsernameAndPassword(username, password).getId();
 			ud.createUser(u);
-			return new LoginScreen();
+			a.setBalance(0);
+			//a.setUserId(u.getId());
+			//create account
+			ad.createAccount(a,userId);
 		}
+		
+		
+		
 		
 		
 		return new LoginScreen();
 	}
+	
 
+
+		
+		
+		
 }
+
+

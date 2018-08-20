@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 import com.thebank.beans.Account;
 import com.thebank.beans.User;
+import com.thebank.daos.AccountDao;
+import com.thebank.daos.AccountDaoJdbc;
 import com.thebank.daos.UserDao;
 import com.thebank.daos.UserSerializer;
 
@@ -13,18 +15,21 @@ public class HomeScreen implements Screen {
 
 	private Scanner scan = new Scanner(System.in);
 	private UserDao ud = UserDao.currentUserDao;
+	private AccountDao ad = AccountDao.currentAccountDao;
+	//private User u = LoginScreen.newUser;
 	
 
 	public Screen start() {
 		
 		int count = 0;
 		String theName = LoginScreen.fileName;
-		User currentUser = new User();
-		currentUser = ud.bringUser(theName);
+		//User currentUser = new User();
+		Account currentAccount = new Account();
+		//Account currentAccount = AccountDaoJdbc.currentAccountDao;
+		//currentUser = ud.bringUser(theName);t
+		//int id = ud.bringUser(theName).getId();
 		
-//		Account newAcc = new Account();
-//		newAcc = RegisterUser.account;
-		System.out.println(currentUser);
+	
 		
 		System.out.println("Please chose from following options:");
 		System.out.println("Enter 1 to deposit money");
@@ -37,7 +42,8 @@ public class HomeScreen implements Screen {
 		case "1":
 			System.out.println("Enter how much u want to deposit");
 			double newMoney =Double.valueOf(scan.nextLine());
-			ud.deposit(currentUser, newMoney);
+			ud.deposit(LoginScreen.newUser, newMoney);
+			
 			//System.out.println("your new balance = "+currentUser.getTotBalance());
 			//newAcc.deposit(newMoney);
 			//currentUser.setAccount(newAcc);
@@ -46,7 +52,7 @@ public class HomeScreen implements Screen {
 		case "2":
 			System.out.println("Enter how much u want to withdraw");
 			double withdrawMoney = Double.valueOf(scan.nextLine());
-			ud.withdraw(currentUser,withdrawMoney);
+			ud.withdraw(LoginScreen.newUser,withdrawMoney);
 			//newAcc.withdraw(withdrawMoney);
 			//System.out.println("your new balance = "+currentUser.getTotBalance());
 			count=1;
@@ -54,7 +60,7 @@ public class HomeScreen implements Screen {
 			
 		case "3":
 			System.out.println("View balance selected");
-			double num2 = currentUser.getTotBalance();
+			double num2 = LoginScreen.newUser.getTotBalance();
 			//double num3 = newAcc.getTotalBalance();
 			System.out.println("Total balance = $"+num2);
 			count=1;

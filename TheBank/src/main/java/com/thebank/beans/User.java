@@ -4,35 +4,41 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class User implements Serializable {
+public class User {
 		
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 6836347917535426876L;
+	//private static final long serialVersionUID = 6836347917535426876L;
+	private int id;
 	private String username;
 	private String password;
 	private String firstName;
 	private String lastName;
 	private double totBalance;
 	private int age;
-	private List<TransHistory> th = new ArrayList<TransHistory>();
 	private int accountNumber;
 	public User() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public User(String username, String password, String firstName, String lastName, double totBalance, int age,
-			List<TransHistory> th, int accountNumber) {
+	public User(int id, String username, String password, String firstName, String lastName, double totBalance, int age,
+			int accountNumber) {
 		super();
+		this.id = id;
 		this.username = username;
 		this.password = password;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.totBalance = totBalance;
 		this.age = age;
-		this.th = th;
 		this.accountNumber = accountNumber;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
 	}
 	public String getUsername() {
 		return username;
@@ -70,20 +76,11 @@ public class User implements Serializable {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	public List<TransHistory> getTh() {
-		return th;
-	}
-	public void setTh(List<TransHistory> th) {
-		this.th = th;
-	}
 	public int getAccountNumber() {
 		return accountNumber;
 	}
 	public void setAccountNumber(int accountNumber) {
 		this.accountNumber = accountNumber;
-	}
-	public static long getSerialversionuid() {
-		return serialVersionUID;
 	}
 	@Override
 	public int hashCode() {
@@ -92,9 +89,9 @@ public class User implements Serializable {
 		result = prime * result + accountNumber;
 		result = prime * result + age;
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
+		result = prime * result + id;
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		result = prime * result + ((password == null) ? 0 : password.hashCode());
-		result = prime * result + ((th == null) ? 0 : th.hashCode());
 		long temp;
 		temp = Double.doubleToLongBits(totBalance);
 		result = prime * result + (int) (temp ^ (temp >>> 32));
@@ -119,6 +116,8 @@ public class User implements Serializable {
 				return false;
 		} else if (!firstName.equals(other.firstName))
 			return false;
+		if (id != other.id)
+			return false;
 		if (lastName == null) {
 			if (other.lastName != null)
 				return false;
@@ -128,11 +127,6 @@ public class User implements Serializable {
 			if (other.password != null)
 				return false;
 		} else if (!password.equals(other.password))
-			return false;
-		if (th == null) {
-			if (other.th != null)
-				return false;
-		} else if (!th.equals(other.th))
 			return false;
 		if (Double.doubleToLongBits(totBalance) != Double.doubleToLongBits(other.totBalance))
 			return false;
@@ -145,9 +139,11 @@ public class User implements Serializable {
 	}
 	@Override
 	public String toString() {
-		return "User [username=" + username + ", password=" + password + ", firstName=" + firstName + ", lastName="
-				+ lastName + ", age=" + age + "]";
+		return "User [id=" + id + ", username=" + username + ", password=" + password + ", firstName=" + firstName
+				+ ", lastName=" + lastName + ", totBalance=" + totBalance + ", age=" + age + ", accountNumber="
+				+ accountNumber + "]";
 	}
+	
 	
 }
 
