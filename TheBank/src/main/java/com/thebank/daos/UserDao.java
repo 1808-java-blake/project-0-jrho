@@ -10,12 +10,12 @@ public interface UserDao {
 	//public static Map<String,List<String>> user_history = new HashMap<String,List<String>>();
 	
 	void createUser(User u);
-	void updateUser(User u);
+	void updateUser(double balance,String username);
 	User findByUsernameAndPassword(String username, String password);
-	void deleteUser(User u);
-	User bringUser(String username);
+	User findByUsername(String username);
 	void deposit(User u,double money);
 	void withdraw(User u, double money);
-	User checkBalance(User u);
+	
 
 }
+

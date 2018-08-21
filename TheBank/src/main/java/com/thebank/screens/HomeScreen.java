@@ -1,13 +1,16 @@
 package com.thebank.screens;
 
+import java.util.List;
 import java.util.Scanner;
 
 import com.thebank.beans.Account;
+import com.thebank.beans.History;
 import com.thebank.beans.User;
 import com.thebank.daos.AccountDao;
-import com.thebank.daos.AccountDaoJdbc;
+import com.thebank.daos.HistoryDao;
 import com.thebank.daos.UserDao;
-import com.thebank.daos.UserSerializer;
+import com.thebank.util.AppState;
+
 
 
 
@@ -15,19 +18,20 @@ public class HomeScreen implements Screen {
 
 	private Scanner scan = new Scanner(System.in);
 	private UserDao ud = UserDao.currentUserDao;
+	private HistoryDao hd = HistoryDao.currentHistoryDao;
 	private AccountDao ad = AccountDao.currentAccountDao;
+	private AppState state =AppState.state;
+	private User u = state.getCurrentUser();
 	//private User u = LoginScreen.newUser;
 	
 
 	public Screen start() {
 		
-		int count = 0;
+		int number = state.getCurrentUser().getId();
 		String theName = LoginScreen.fileName;
-		//User currentUser = new User();
+		
 		Account currentAccount = new Account();
-		//Account currentAccount = AccountDaoJdbc.currentAccountDao;
-		//currentUser = ud.bringUser(theName);t
-		//int id = ud.bringUser(theName).getId();
+		
 		
 	
 		
@@ -40,45 +44,31 @@ public class HomeScreen implements Screen {
 		String selection = scan.nextLine();
 		switch (selection) {
 		case "1":
-			System.out.println("Enter how much u want to deposit");
-			double newMoney =Double.valueOf(scan.nextLine());
-			ud.deposit(LoginScreen.newUser, newMoney);
+
+			return new DepositScreen();
 			
-			//System.out.println("your new balance = "+currentUser.getTotBalance());
-			//newAcc.deposit(newMoney);
-			//currentUser.setAccount(newAcc);
-			count=1;
-			break;
 		case "2":
-			System.out.println("Enter how much u want to withdraw");
-			double withdrawMoney = Double.valueOf(scan.nextLine());
-			ud.withdraw(LoginScreen.newUser,withdrawMoney);
-			//newAcc.withdraw(withdrawMoney);
-			//System.out.println("your new balance = "+currentUser.getTotBalance());
-			count=1;
-			break;
+			return new WithdrawScreen();
 			
 		case "3":
 			System.out.println("View balance selected");
-			double num2 = LoginScreen.newUser.getTotBalance();
-			//double num3 = newAcc.getTotalBalance();
-			System.out.println("Total balance = $"+num2);
-			count=1;
-			break;
+			System.out.println("Your total balance =$"+u.getTotBalance());
+			return new HomeScreen();
 		case "4":
-			System.out.println(UserSerializer.transHistory.toString());
-			count=1;
+			List<History> history = hd.findByUserId(number);
+			history.stream().forEach((each) -> {
+				System.out.println("Date: " + each.getDate() + " Type: "+ each.getType() + "Amount: "+each.getMoney()+ " user_id: "+each.getUserId() );
+			});
 			break;
 			
 		case "9":
 			System.out.println("Exit and Going back to login screen");
-	
 			return new LoginScreen();
 		default:
 			break;
 		
 		}
-		//currentUser.setAccount(newAcc);
+		
 		System.out.println("Go back to user menu: 1, otherwise 2 to exit");
 		if(scan.nextLine().equals("1")) {
 			return new HomeScreen();

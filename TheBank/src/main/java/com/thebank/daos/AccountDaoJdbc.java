@@ -22,12 +22,11 @@ public class AccountDaoJdbc implements AccountDao {
 		try(Connection conn = cu.getConnection())
 			{
 					PreparedStatement ps = conn.prepareStatement(
-							"INSERT INTO accounts (account_number, account_balance,user_id) VALUES (?,?,?)",
+							"INSERT INTO accounts (account_number,user_id) VALUES (?,?)",
 							new String[] {"account_id"});
 					ps.setInt(1, a.getAccountNumber());
-					ps.setDouble(2, a.getBalance());
 					//ps.setArray(2, a.getHistroy());
-					ps.setInt(3, userId);
+					ps.setInt(2, userId);
 					
 					int recordsCreated = ps.executeUpdate();
 					log.trace(recordsCreated + "records created");
@@ -72,51 +71,6 @@ public class AccountDaoJdbc implements AccountDao {
 		return null;
 	}
 
-	@Override
-	public void deposit(Account a, double money) {
-		if(money<0) {
-			System.out.println("Invalid input");
-			return;
-		}
-		a.setBalance(a.getBalance()+money);
-		updateAccount(a);
-		
-		
-	}
-
-	@Override
-	public void withdraw(Account a, double money) {
-		if(money<0) {
-			System.out.println("Invalid input");
-			return;
-		}
-		a.setBalance(a.getBalance()-money);
-		updateAccount(a);
-		
-	}
-
-	@Override
-	public void updateAccount(Account a) {
-		try(Connection conn = cu.getConnection()){
-			PreparedStatement ps = conn.prepareStatement(
-					"UPDATE accounts SET balance =? WHERE user_id=?");
-			ps.setDouble(1, a.getBalance());
-			ps.setInt(2, a.getUserId());
-			int recordsChanged = ps.executeUpdate();
-			log.trace(recordsChanged + "records updtaed");
-			
-					
-			
-		} catch (SQLException e) {
-			log.error(e.getMessage());
-			for(StackTraceElement ste: e.getStackTrace()) {
-				log.error(ste);
-			}
-			log.warn("failed to update account");
-		}
-		
-		
-	}
 
 	@Override
 	public void random_account(Account a) {

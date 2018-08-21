@@ -46,7 +46,7 @@ public class LoginScreen implements Screen{
 			state.setCurrentUser(currentUser);
 			log.info("user succefully logged in");
 			log.info("welcome" + currentUser);
-			newUser = currentUser;
+			//newUser = currentUser;
 			return new HomeScreen();
 		}
 

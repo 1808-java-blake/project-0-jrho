@@ -54,11 +54,13 @@ public class RegisterUser implements Screen {
 			System.out.println("Enter deposit amount");
 			String amount = scan.nextLine();
 			double money = Double.valueOf(amount);
-			a.setBalance(money);
-			System.out.println("new balance " +a.getBalance() );
+//			a.setBalance(money);
+//			System.out.println("new balance " +a.getBalance() );
 			
-			ud.createUser(u);
 			u.setTotBalance(money);
+			System.out.println("new balance" +u.getTotBalance());
+			ud.createUser(u);
+			
 			
 			
 			
